@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "DM Sans", sans-serif;
+  background-color: hsl(27, 66%, 92%);
+  overflow: hidden;
+  font-size: 18px;
+}
+
+.balance {
+  position: relative;
+  background-color: hsl(10, 79%, 65%);
+  width: 380px;
+  height: 80px;
+  color: hsl(33, 100%, 98%);
+  border-radius: 15px;
+}
+
+.balance p {
+  padding: 13px 20px 5px;
+  font-size: 13px;
+}
+
+.balance__money {
+  font-size: 25px;
+  margin: 20px;
+  font-weight: 700;
+}
+
+.circle {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.circle__one {
+  top: 50%;
+  left: 86%;
+  transform: translate(-50%, -50%);
+  border: 2px solid hsl(33, 100%, 98%);
+  background-color: transparent;
+  z-index: 1;
+}
+
+.circle__two {
+  top: 50%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  background-color: hsl(25, 47%, 15%);
+}
