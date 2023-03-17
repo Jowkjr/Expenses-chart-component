@@ -5,15 +5,18 @@
 }
 
 body {
+  background-color: hsl(27, 66%, 92%);
+  font-size: 18px;
+  overflow: hidden;
+}
+
+main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
   font-family: "DM Sans", sans-serif;
-  background-color: hsl(27, 66%, 92%);
-  overflow: hidden;
-  font-size: 18px;
 }
 
 .balance {
@@ -63,10 +66,8 @@ body {
 .results {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: center; */
   width: 380px;
-  height: 400px;
+  height: 360px;
   background-color: hsl(33, 100%, 98%);
   border-radius: 20px;
 }
@@ -135,4 +136,46 @@ h1 {
   margin: 5px 0;
   color: hsl(28, 10%, 53%);
   font-size: 14px;
+}
+
+.line {
+  height: 1px;
+  width: 85%;
+  background-color: hsl(27, 66%, 92%);
+  margin: 5px auto 30px;
+}
+
+.total__month {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+
+.total__month__money-container p {
+  font-size: 14px;
+  color: hsl(28, 10%, 53%);
+}
+
+.total__month__money {
+  font-weight: 700;
+  font-size: 35px;
+  color: hsl(25, 47%, 15%);
+}
+
+.total__month-percent-container {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-top: 15px;
+}
+
+.total__month-percent {
+  font-size: 16px;
+  color: hsl(25, 47%, 15%);
+  font-weight: 700;
+}
+
+.total__month-percent-container p {
+  font-size: 14px;
+  color: hsl(28, 10%, 53%);
 }
