@@ -179,3 +179,12 @@ h1 {
   font-size: 14px;
   color: hsl(28, 10%, 53%);
 }
+
+@media (max-width: 600px) {
+  .results {
+    width: 360px;
+  }
+  .balance {
+    width: 360px;
+  }
+}
