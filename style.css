@@ -23,6 +23,7 @@ body {
   height: 80px;
   color: hsl(33, 100%, 98%);
   border-radius: 15px;
+  margin-bottom: 15px;
 }
 
 .balance p {
@@ -57,4 +58,81 @@ body {
   left: 90%;
   transform: translate(-50%, -50%);
   background-color: hsl(25, 47%, 15%);
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  width: 380px;
+  height: 400px;
+  background-color: hsl(33, 100%, 98%);
+  border-radius: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 20px 0 10px 25px;
+  color: hsl(25, 47%, 15%);
+}
+
+.charts {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  margin: 35px 20px 10px 20px;
+}
+
+.chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.column {
+  width: 38px;
+  border-radius: 5px;
+  height: 80px;
+  background-color: hsl(10, 79%, 65%);
+  margin: 0 auto;
+}
+
+.column-mon {
+  height: 35px;
+}
+
+.column-tue {
+  height: 70px;
+}
+
+.column-wed {
+  height: 100px;
+}
+
+.column-thu {
+  height: 60px;
+}
+
+.column-fri {
+  height: 45px;
+}
+
+.column-sat {
+  height: 85px;
+}
+
+.column-sun {
+  height: 50px;
+}
+
+.column.current {
+  background-color: hsl(186, 34%, 60%);
+}
+
+.day {
+  margin: 5px 0;
+  color: hsl(28, 10%, 53%);
+  font-size: 14px;
 }
